@@ -91,6 +91,41 @@
   animation: shrink var(--breath-time) linear forwards;
 }
 
+@media only screen and (max-width: 767px) {
+  .container {
+    height: 180px;
+    width: 180px;
+  }
+
+  .gradient-circle {
+    height: 190px;
+    width: 190px;
+    top: -5px;
+    left: -5px;
+  }
+
+  .pointer-container {
+    position: absolute;
+    top: -30px;
+    left: 80px;
+    width: 20px;
+    height: 120px;
+    transform-origin: bottom center;
+  }
+
+  .pointer {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    display: block;
+  }
+
+  .App {
+    background-position: 80% 50%;
+  }
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);

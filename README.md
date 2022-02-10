@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Breathe app
+
+This is a simple breath timer based on [this tutorial](https://www.youtube.com/watch?v=l-1ZrU6avzI) by [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) on YouTube, and rewritten in React.
+
+## Goals
+
+Next I will add an input to change the breath timing.
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
